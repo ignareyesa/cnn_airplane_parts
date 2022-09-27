@@ -13,7 +13,7 @@ The project consisted of 4 distinct phases.
 - Model application
 - Conclusions
 
-![Image1](/images/prediction_img3.png?raw=true) ![Image2](/images/prediction_img1.png?raw=true) ![Image3](/images/prediction_img2.png?raw=true)
+![Image1](/images/prediction_img3.png?raw=true) ![Image2](/images/prediction_img1.png?raw=true)
 
 ## Data collection and Data preparation📚
 For this part, a total of 2000 aircraft images were collected from a Kaggle database. Subsequently, the different parts of the aircraft considered for the study have been labelled in each one of them
