@@ -5,7 +5,6 @@ Due to the need to develop an efficient and automatic technology for the detecti
 This project proposes the creation from the first stage to the end of a convolutional neural network to detect the different parts of the aircraft.
 
 This type of network has been selected due to the success it has had in recent history for similar tasks of detecting objects through images.
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 The project consisted of 4 distinct phases.
 
@@ -13,6 +12,8 @@ The project consisted of 4 distinct phases.
 - Data preparation
 - Model application
 - Conclusions
+
+![Image1](/images/prediction_img3.png?raw=true) ![Image2](/images/prediction_img1.png?raw=true) ![Image3](/images/prediction_img2.png?raw=true)
 
 ## Data collection and Data preparation📚
 For this part, a total of 2000 aircraft images were collected from a Kaggle database. Subsequently, the different parts of the aircraft considered for the study have been labelled in each one of them
@@ -43,6 +44,9 @@ Below is a table with the results obtained for different metrics.
 As can be seen, the results are not quite what a proper model expects, as they are far from achieving good accuracy and other metrics. This is due to the fact that it is a dataset with a limited number of data and therefore tends to over-fitting, although a significant improvement can be seen by increasing the number of images using techniques such as Data-Augmentation.
 
 There are two codes where prediction are performed: `prediction.ipynb` (images) and `videoprediction.ipynb` (video).
+
+### DEMO
+[![Video1](/images/predictvideo.gif)](https://github.com/ignareyesa/cnn_airplane_parts)
 
 #### Future work🔨
 1. Extend the image set: Reduce overfitting and increase accuracy.
